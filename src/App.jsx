@@ -22,7 +22,7 @@ export default function App() {
         <div className="h-[35vh] max-h-[280px] lg:h-[68vh] lg:max-h-[550px] xl:container mx-auto">
           <div className="grid gap-6 lg:grid-cols-[1fr_385px] max-h-[550px] w-full lg:h-[68vh]">
             <div className="relative row-span-2 overflow-hidden rounded-xl" role="button" onClick={() => setIsOpen(true)}>
-              <img src="/san-martino/images/foto_1.jpg" alt="Residence Europa" className="rounded-xl h-full object-cover shadow-lg transition-all hover:scale-105"  loading="lazy" />
+              <img src="/san-martino/images/foto_1.jpg" alt="Residence Europa" className="rounded-xl h-full object-cover shadow-lg transition-all hover:scale-105" />
             </div>
             <div className="relative overflow-hidden rounded-xl" role="button" onClick={() => setIsOpen(true)}>
               <img
