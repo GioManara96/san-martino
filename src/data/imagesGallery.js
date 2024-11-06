@@ -22,7 +22,7 @@ export const imagesGallery = [
   {src: "/san-martino/images/altro/IMG_20241101_112712-min.webp", name: "Vista pale da Punta Ces", category: "altro"},
   {src: "/san-martino/images/altro/IMG_20241103_102817-min.webp", name: "Paesaggio 1", category: "altro"},
   {src: "/san-martino/images/altro/sfondo_2.jpg", name: "Paesaggio 2", category: "altro"},
-  {src: "/san-martino/images/altro/sfondo_san_martino.jpg", name: "Paesaggio innevato", category: "altro"},
+  {src: "/san-martino/images/altro/sfondo_san_martino.webp", name: "Paesaggio innevato", category: "altro"},
   {src: "/san-martino/images/altro/casa_innevata.jpg", name: "Casa innevata", category: "altro"},
   {src: "/san-martino/images/altro/slitta_cavallo.jpg", name: "Slitta cavallo", category: "altro"},
 ]

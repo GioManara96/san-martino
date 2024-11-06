@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/images/sfondo_san_martino.jpg')",
+        "hero-pattern": "url('/images/sfondo_san_martino.webp')",
         "sunset-pattern": "url('/images/sfondo_2.jpg')",
       },
       backgroundPosition: {
