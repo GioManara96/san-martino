@@ -1,8 +1,8 @@
 import React from "react";
-import { IoBedOutline } from "react-icons/io5";
-import { FaShower } from "react-icons/fa6";
-import { MdOutlineGarage } from "react-icons/md";
-import { BsPeople } from "react-icons/bs";
+import {IoBedOutline} from "react-icons/io5";
+import {FaShower} from "react-icons/fa6";
+import {MdOutlineGarage} from "react-icons/md";
+import {BsPeople} from "react-icons/bs";
 
 export default function ApartmentDetails() {
   return (
@@ -31,27 +31,23 @@ export default function ApartmentDetails() {
       </div>
       <div className="hidden md:block">
         <p className="mt-5 mb-3">
-          Benvenuti nel nostro accogliente monolocale al Residence Europa, situato in via Passo Rolle 10, a pochi passi dal cuore di San Martino di Castrozza.
-          Immerso nella bellezza naturale delle Dolomiti e ai piedi delle maestose Pale di San Martino, è la scelta ideale per una fuga indimenticabile.
+          Benvenuti nel nostro accogliente monolocale al Residence Europa, situato in via Passo Rolle 10, a pochi passi dal cuore di San Martino di Castrozza. Immerso nella bellezza naturale delle Dolomiti e ai piedi delle maestose Pale di San
+          Martino, è la scelta ideale per una fuga indimenticabile.
         </p>
         <p>
-          A soli 700 metri dal centro del paese e a 400 metri dall'ovovia Tognola, avrai facile accesso alle piste da sci, ai sentieri e a tutte le attrazioni
-          locali. Perfetto per piccole famiglie, il monolocale può ospitare fino a 3 persone, con tre comodi divani letto singoli. La cucina è dotata di tutti i
-          principali elettrodomestici, inclusi microonde e lavastoviglie, per rendere il tuo soggiorno il più confortevole possibile.
+          A soli 700 metri dal centro del paese e a 400 metri dall'ovovia Tognola, avrete facile accesso alle piste da sci, ai sentieri e a tutte le attrazioni locali. Perfetto per piccole famiglie, il monolocale può ospitare fino a 3 persone, con
+          tre comodi divani letto singoli. La cucina è dotata di tutti i principali elettrodomestici, inclusi microonde e lavastoviglie, per rendere il vostro soggiorno il più confortevole possibile.
         </p>
-        <p className="my-3">
-          Goditi l'atmosfera alpina mentre ti rilassi dopo una giornata di avventure, tra sci, escursioni e passeggiate nei boschi. Prenota ora la tua
-          esperienza unica tra le montagne!
-        </p>
+        <p className="my-3">Godetevi l'atmosfera alpina mentre vi rilassate dopo una giornata di avventure, tra sci, escursioni e passeggiate nei boschi. Contattateci per saperne di più!</p>
       </div>
       <div className="block md:hidden">
         <p>
-          Benvenuto nel nostro accogliente monolocale al Residence Europa, a pochi passi dal centro e dall’ovovia Tognola. Immerso nella bellezza delle
-          Dolomiti, è ideale per piccole famiglie e gruppi ristretti di amici, con spazio fino a 3 persone, una cucina con lavastoviglie, un bagno e un posto
-          auto.
+          Benvenuti nel nostro accogliente monolocale al Residence Europa, a pochi passi dal centro e dall’ovovia Tognola. Immerso nella bellezza delle Dolomiti, è ideale per piccole famiglie e gruppi ristretti di amici, con spazio fino a 3 persone,
+          una cucina con lavastoviglie, un bagno e un posto auto.
         </p>
-        <p className="my-3">Goditi l’atmosfera alpina e prenota la tua avventura tra le montagne!</p>
+        <p className="my-3">Contattateci per saperne di più!</p>
       </div>
     </div>
   );
 }
+

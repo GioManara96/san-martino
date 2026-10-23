@@ -1,5 +1,4 @@
-import React from "react";
-import { FaEnvelope, FaPhone } from "react-icons/fa6";
+import {FaEnvelope, FaPhone} from "react-icons/fa6";
 
 export default function ContactInfo() {
   // la topbar compare solo dopo aver scrollato di almeno 500px
@@ -14,17 +13,12 @@ export default function ContactInfo() {
   });
 
   return (
-    <div
-      className={`${window.scrollY === 0 && "hidden"} md:hidden container mx-auto fixed top-0 w-full bg-black bg-opacity-80 z-50 px-10 py-3 text-black flex justify-between border-b border-white`}
-      id="showContact">
-      <a
-        href="tel:+390123456789"
-        className="btn px-3 py-[2px] max-w-[120px] flex items-center bg-white border border-black text-black rounded-lg hover:text-white hover:bg-black hover:border-white"
-        title="chiama per info">
+    <div className={`${window.scrollY === 0 && "hidden"} md:hidden container mx-auto fixed top-0 w-full bg-black bg-opacity-80 z-50 px-10 py-3 text-black flex justify-between border-b border-white`} id="showContact">
+      <a href="tel:+393466084544" className="btn px-3 py-[2px] max-w-[120px] flex items-center bg-white border border-black text-black rounded-lg hover:text-white hover:bg-black hover:border-white" title="chiama per info">
         <FaPhone className="inline me-2" /> Chiamaci
       </a>
       <a
-        href="mailto:user@example.com"
+        href="mailto:giomanara1996@gmail.com?subject=Richiesta disponibilità app. San Martino di Castrozza"
         className="btn px-3 py-[2px] max-w-[120px] flex items-center bg-white border border-black text-black rounded-lg hover:text-white hover:bg-black hover:border-white"
         title="scrivi per info">
         <FaEnvelope className="inline me-2" /> Scrivici
@@ -32,3 +26,4 @@ export default function ContactInfo() {
     </div>
   );
 }
+
